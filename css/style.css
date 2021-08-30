@@ -62,7 +62,8 @@ body {
 
 }
 
-.sidebar-linc:hover {
+.sidebar-linc:hover,
+.sidebar-linc:focus{
   font-size: 20px;
   color:  #ff6b08;
   text-shadow:  5px 5px 5px rgba(255, 87, 0, 0.79);
@@ -92,7 +93,9 @@ body {
   padding: 0;
 }
 
-.sidebar-icon:hover{
+.sidebar-icon:hover,
+.sidebar-icon:focus
+{
   fill:  #ff6b08;
   text-shadow:  5px 5px 5px rgba(255, 87, 0, 0.79);
 }
@@ -130,7 +133,8 @@ body {
   line-height: 24px;
   color: #595959;
 }
-.projects-linc:hover{
+.projects-linc:hover,
+.projects-linc:focus{
   color: #ff6b08;
    text-shadow:  5px 5px 5px rgba(255, 87, 0, 0.79);
 }
